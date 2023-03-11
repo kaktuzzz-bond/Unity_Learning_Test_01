@@ -3,7 +3,7 @@ using Random = UnityEngine.Random;
 
 public class Playground : MonoBehaviour
 {
-    [SerializeField] private Transform[] shapes;
+    [SerializeField] private Shape[] shapes;
 
     [SerializeField] private RectTransform boardRect;
 
