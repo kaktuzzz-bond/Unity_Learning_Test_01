@@ -11,13 +11,6 @@ public class SizeChanger : Shape
     [SerializeField]
     private float maxSizeMultiplier;
 
-    private SpriteRenderer _sr;
-
-    private void Awake()
-    {
-        _sr = GetComponentInChildren<SpriteRenderer>();
-    }
-
     private new void Start()
     {
         base.Start();
