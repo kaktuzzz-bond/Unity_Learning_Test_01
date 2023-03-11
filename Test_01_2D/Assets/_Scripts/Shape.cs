@@ -24,7 +24,7 @@ public abstract class Shape : MonoBehaviour
         ChangeAppearance();
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         _rb.velocity = Direction * Speed;
     }
